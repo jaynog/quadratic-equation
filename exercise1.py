@@ -21,7 +21,21 @@ solutions = ()
 
 
 # Put your here...
-
+delta = b**2 - (4 * a * c)
+if( a == 0 ):
+    x0 = (-c / b)
+    solutions = (x0, )
+else:
+    if delta > 0:
+        sqdelta = delta**0.5
+        x1 = (sqdelta - b) / (2 * a)
+        x2 = (-sqdelta - b) / (2 * a)
+        solutions = (x1, x2)
+    elif delta < 0:
+        solutions = ()
+    else:
+        x = -b / (2 * a)
+        solutions = (x, )
 
 
 
