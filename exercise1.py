@@ -36,7 +36,7 @@ else:
     else:
         x = -b / (2 * a)
         solutions = (x, )
-# napisane w przegladarce
+# napisane na iPhone 
 
 
 # At the end, the results are printed to the screen
